@@ -89,7 +89,7 @@
     border: solid #999 1px;
     border-radius: var(--px-6);
     cursor: pointer;
-    &:active,&:focus {
+    &:active:not(:disabled),&:focus:not(:disabled) {
         border: solid #666 2px;
     }
 }
